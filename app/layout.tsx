@@ -30,7 +30,7 @@ export default function RootLayout({
       )}
     >
       <body>
-        <ThemeProvider>
+        <ThemeProvider defaultTheme="light">
           <Header />
           {children}
         </ThemeProvider>
